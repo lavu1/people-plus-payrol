@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payslip</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            line-height: 1.4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .payslip-container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            border: 1px solid #ddd;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .company-name {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .payslip-title {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .employee-info {
+            width: 100%;
+            margin-bottom: 15px;
+            border-collapse: collapse;
+        }
+        .employee-info td {
+            padding: 5px;
+            vertical-align: top;
+            border: 1px solid #ddd;
+        }
+        .employee-info .label {
+            font-weight: bold;
+            background-color: #f5f5f5;
+            width: 20%;
+        }
+        .summary-table {
+            width: 100%;
+            margin-bottom: 15px;
+            border-collapse: collapse;
+        }
+        .summary-table th, .summary-table td {
+            padding: 8px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        .summary-table th {
+            background-color: #f5f5f5;
+            font-weight: bold;
+        }
+        .earnings-deductions {
+            width: 100%;
+            margin-bottom: 15px;
+            border-collapse: collapse;
+        }
+        .earnings-deductions th, .earnings-deductions td {
+            padding: 8px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        .earnings-deductions th {
+            background-color: #f5f5f5;
+            font-weight: bold;
+        }
+        .totals-table {
+            width: 100%;
+            margin-bottom: 15px;
+            border-collapse: collapse;
+        }
+        .totals-table td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+        .totals-table .label {
+            font-weight: bold;
+            background-color: #f5f5f5;
+            width: 50%;
+        }
+        .footer-info {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .footer-info td {
+            padding: 5px;
+            vertical-align: top;
+            border: 1px solid #ddd;
+        }
+        .footer-info .label {
+            font-weight: bold;
+            background-color: #f5f5f5;
+            width: 20%;
+        }
+        .text-right {
+            text-align: right;
+        }
+        .text-center {
+            text-align: center;
+        }
+        .text-bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="payslip-container">
+        <div class="header">
+            <div class="company-name">ZAMBIA UNIVERSITY COLLEGE OF TECHNOLOGY</div>
+            <div class="payslip-title">PAYSLIP - FEBRUARY 2025</div>
+        </div>
+
+        <table class="employee-info">
+            <tr>
+                <td class="label">Employee ID</td>
+                <td>137</td>
+                <td class="label">Emp Name</td>
+                <td>MWEEMBA LAVU</td>
+            </tr>
+            <tr>
+                <td class="label">Date Engaged</td>
+                <td>23/11/2023</td>
+                <td class="label">Branch</td>
+                <td>Zambia ICT College Main</td>
+            </tr>
+            <tr>
+                <td class="label">Salary Rate</td>
+                <td>K 15,092.00</td>
+                <td class="label">Cost/Centre</td>
+                <td>ICT Centre of Excellence</td>
+            </tr>
+        </table>
+
+        <table class="summary-table">
+            <thead>
+                <tr>
+                    <th>Total Income YTD</th>
+                    <th>Net for Tax YTD</th>
+                    <th>Tax YTD</th>
+                    <th>Napsa YTD</th>
+                    <th>Leave Days</th>
+                    <th>Leave Days Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>K 39,239.20</td>
+                    <td>K 19,619.60</td>
+                    <td>K 9,770.50</td>
+                    <td>K 1,961.96</td>
+                    <td>19.5000</td>
+                    <td>K 13,377.00</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="earnings-deductions">
+            <thead>
+                <tr>
+                    <th>Code</th>
+                    <th>Description</th>
+                    <th>Balance</th>
+                    <th>Amount</th>
+                    <th>Days/Hrs</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>P00</td>
+                    <td>BASIC PAY</td>
+                    <td></td>
+                    <td class="text-right"></td>
+                    <td>22.00</td>
+                    <td class="text-right">15,092.00</td>
+                </tr>
+                <tr>
+                    <td>023</td>
+                    <td>TRANSPORT ALLOWANCE</td>
+                    <td></td>
+                    <td class="text-right"></td>
+                    <td></td>
+                    <td class="text-right">1,509.20</td>
+                </tr>
+                <tr>
+                    <td>P06</td>
+                    <td>HOUSING ALLOWANCE</td>
+                    <td></td>
+                    <td class="text-right"></td>
+                    <td></td>
+                    <td class="text-right">3,018.40</td>
+                </tr>
+                <tr>
+                    <td>D00</td>
+                    <td>P.A.Y.E (Income Tax)</td>
+                    <td></td>
+                    <td class="text-right">4,885.25</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>D02</td>
+                    <td>NAPSA CONTR</td>
+                    <td></td>
+                    <td class="text-right">980.98</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>D05</td>
+                    <td>UNION CONTR</td>
+                    <td></td>
+                    <td class="text-right">226.38</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>D07</td>
+                    <td>ROUNDING RECOVERY</td>
+                    <td></td>
+                    <td class="text-right">(0.36)</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>D08</td>
+                    <td>ROUNDING ADJUST</td>
+                    <td></td>
+                    <td class="text-right">0.43</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>D30</td>
+                    <td>NHIS Contr</td>
+                    <td></td>
+                    <td class="text-right">150.92</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <p style="padding:10px"></p>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="text-right"><b>K6,243.60</b></td>
+                    <td></td>
+                    <td class="text-right"><b>K19,619.60</b></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="totals-table">
+            <tr>
+                <td class="label">Job Title:</td>
+                <td>IT/Office manager/</td>
+                <td class="label">Total Income</td>
+                <td class="text-right">K19,619.60</td>
+            </tr>
+            <tr>
+                <td class="label">Pay Method:</td>
+                <td>ABSA</td>
+                <td class="label">Total Deductions</td>
+                <td class="text-right">K6,243.60</td>
+            </tr>
+            <tr>
+                <td class="label">Bank A/C No:</td>
+                <td>0000001002683</td>
+                <td class="label">Net Pay</td>
+                <td class="text-right text-bold">K13,376.00</td>
+            </tr>
+        </table>
+
+        <table class="footer-info">
+            <tr>
+                <td class="label">NRC. No:</td>
+                <td>63710952/1</td>
+                <td class="label">Social S No:</td>
+                <td>325583648</td>
+                <td class="label">NHIS No:</td>
+                <td>03549321110127</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
