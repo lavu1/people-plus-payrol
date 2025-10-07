@@ -62,7 +62,7 @@
                             <li><strong>Category</strong> HR Technology</li>
                             <li><strong>Client</strong> Enterprise Solutions</li>
                             <li><strong>Launch date</strong> 15 January, 2023</li>
-                            <li><strong>System URL</strong> <a href="/admin/login">http://195.35.1.13/admin/login</a></li>
+                            <li><strong>System URL</strong> <a href="/admin/login">https://peoplesplussolution.com/admin/login</a></li>
                             <li><a href="#" class="btn-visit align-self-start">Visit Portal</a></li>
                         </ul>
                     </div>
