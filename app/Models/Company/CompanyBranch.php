@@ -33,6 +33,15 @@ class CompanyBranch extends Model
             $company_id = Auth::user()->current_company_id;
             $model->company_id = Company::where('id',$company_id)->first()->id;
         });
+
+        static::created(function ($model) {
+            if (request()->boolean('branches') === false) {
+                Department::create([
+                    'company_branch_id' => $model->id,
+                    'department_name'   => 'General Department',
+                ]);
+            }
+        });
     }
 
     public function company()

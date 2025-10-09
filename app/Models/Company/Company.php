@@ -11,6 +11,7 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Str;
 
 class Company extends Model
 {
@@ -60,6 +61,26 @@ class Company extends Model
             $user = Auth::user();
             $user->current_company_id = $model->id;
             $user->save();
+
+            // Check if branches were requested
+            if (request()->boolean('branches') === false) {
+                $createdBranch = CompanyBranch::create([
+                        'company_id'            => $model->id,
+                        'company_branch_name'   => 'Default Branch',
+                        'company_branch_code'   => 'BR-' . strtoupper(Str::random(4)),
+                        'company_branch_email'  => $model->email,
+                        'company_branch_address'=> $model->address,
+                        'town_id'               => $model->town_id,
+                    ]);
+            }
+
+            if (request()->boolean('branches') === false) {
+                        Department::create([
+                            'company_branch_id' => $createdBranch->id,
+                            'department_name'   => 'General Department',
+                        ]);
+            }
+
         });
     }
 

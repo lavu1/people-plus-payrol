@@ -68,10 +68,8 @@ class OTPController extends Controller
 
             return back();
         }else{
-            redirect()->to('/admin/login')->with('error','err');
+            return redirect()->to('/admin/login')->with('error','err');
         }
-
-        return null;
     }
     public function Back(){
         auth()->logout();

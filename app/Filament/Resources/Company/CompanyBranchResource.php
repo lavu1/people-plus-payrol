@@ -72,6 +72,9 @@ class CompanyBranchResource extends Resource
                    ->reactive() // Reload form when province is changed
                    ->afterStateUpdated(fn (callable $set) => $set('town_id', null))
                    ->required(),
+                Forms\Components\Checkbox::make('departments')
+                    ->label('Has Departments')
+                    ->default(false),
 
                // Town dropdown (filtered by province)
                Forms\Components\Select::make('town_id')

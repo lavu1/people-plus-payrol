@@ -112,6 +112,12 @@ class CompanyResource extends Resource
                     })
                     ->required()
                     ->searchable(),
+                Forms\Components\Checkbox::make('branches')
+                    ->label('Has Branches')
+                ->default(false),
+                Forms\Components\Checkbox::make('departments')
+                    ->label('Has Departments')
+                ->default(false),
             ]);
     }
 
