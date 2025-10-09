@@ -17,8 +17,8 @@ class CreateUser extends CreateRecord
 //        $user->save();
 //
         // Generate and set OTP values
-        $data['otp_code'] = $otp;
-        \App\Models\User::sendMail($otp);
+        //$data['otp_code'] = $otp;
+        //\App\Models\User::sendMail($otp);
         return $data;
     }
 
@@ -30,8 +30,8 @@ class CreateUser extends CreateRecord
 //        $user->save();
 //
         // Generate and set OTP values
-        $data['otp_code'] = $otp;
-        \App\Models\User::sendMail($otp);
+        //$data['otp_code'] = $otp;
+        //\App\Models\User::sendMail($otp);
         $user = parent::handleRecordCreation($data);
         return $user;
     }

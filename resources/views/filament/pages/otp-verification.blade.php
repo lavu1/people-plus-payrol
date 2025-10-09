@@ -13,22 +13,50 @@
             @csrf
             <div>
                 <label for="otp" class="block text-sm font-medium text-gray-700">Enter OTP</label>
-                <input 
-                    type="text" 
-                    name="otp" 
-                    id="otp" 
-                    required 
+                <input
+                    type="text"
+                    name="otp"
+                    id="otp"
+                    required
                     class="w-full p-3 mt-1 text-sm border border-gray-300 rounded-md focus:ring-amber-500 focus:border-amber-500"
                     placeholder="Enter OTP code"
                 />
             </div>
-            <button 
-                type="submit" 
+            <button
+                type="submit"
                 class="w-full p-3 text-white bg-amber-600 rounded-md hover:bg-amber-700 font-semibold"
             >
                 Verify OTP
             </button>
         </form>
+
+        <form method="POST" action="{{ route('otp.new') }}" class="space-y-4">
+            @csrf
+            <input
+                type="hidden"
+                name="new_otp"
+            />
+            <button
+                type="submit"
+                class="w-full p-3 mt-5 mb-5 text-white bg-amber-600 rounded-md hover:bg-purple-600 font-semibold"
+            >
+                Request new OTP
+            </button>
+        </form>
+
+        <form method="POST" action="{{ route('otp.new') }}" class="space-y-4">
+            @csrf
+            <input
+                type="hidden"
+                name="new_otp"
+            />
+            <a href="{{ route('back') }}" class="link-light"
+            >
+               Back
+            </a>
+        </form>
+
+
     </div>
 </body>
 </html>

@@ -12,6 +12,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/otp', [OTPVerification::class, 'render'])->name('otp.page');
 Route::post('/otp/verify', [\App\Http\Controllers\Auth\OTPController::class, 'verify'])->name('otp.verify');
+Route::post('/otp/new', [\App\Http\Controllers\Auth\OTPController::class, 'newOTP'])->name('otp.new');
+Route::get('/back', [\App\Http\Controllers\Auth\OTPController::class, 'Back'])->name('back');
 
 
 Route::get('pdf/{order}', PdfController::class)->name('pdf');

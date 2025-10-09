@@ -134,16 +134,16 @@ class User extends Authenticatable implements FilamentUser
         parent::boot();
 
         static::creating(function ($user) {
-            $user->otp_code = rand(100000, 999999);
+           // $user->otp_code = rand(100000, 999999);
             //  Mail::to($user->email)->send(new ESendMail($details));
 
         });
         static::updating(function ($user) {
-            $user->otp_code = rand(100000, 999999);
+           // $user->otp_code = rand(100000, 999999);
             //  Mail::to($user->email)->send(new ESendMail($details));
 
         });
-
+/*
         static::created(function ($user) {
             // Send OTP via email
             $details = [
@@ -163,6 +163,7 @@ class User extends Authenticatable implements FilamentUser
             ];
             Mail::to($user->email)->send(new SendMail($details));
         });
+        */
     }
 
 }

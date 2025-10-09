@@ -14,6 +14,7 @@ class UserObserver
      */
     public function created(User $user): void
     {
+        /*
         $otp = rand(100000, 999999);
         $user->otp_code = $otp;
         $user->save();
@@ -26,7 +27,7 @@ class UserObserver
 
         //  Mail::to($user->email)->send(new ESendMail($details));
         Mail::to($user->email)->send(new SendMail($details));
-
+*/
     }
 
     /**
