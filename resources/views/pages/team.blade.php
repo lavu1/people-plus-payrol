@@ -30,7 +30,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                     <div class="team-member">
                         <div class="member-img">
-                            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="Mr. J. Thewa Chishete">
+                            <img src="assets/img/team/Thewa_web_photo.jpg" class="img-fluid" alt="Mr. J. Thewa Chishete">
                             <div class="social">
                                 <a href=""><i class="bi bi-linkedin"></i></a>
                                 <a href=""><i class="bi bi-envelope"></i></a>
@@ -47,7 +47,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                     <div class="team-member">
                         <div class="member-img">
-                            <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="Mrs. Chansa A. K. Chishete">
+                            <img src="assets/img/team/Chansa_Chishete.jpg" width="300" height=10" class="img-fluid" alt="Mrs. Chansa A. K. Chishete">
                             <div class="social">
                                 <a href=""><i class="bi bi-linkedin"></i></a>
                                 <a href=""><i class="bi bi-envelope"></i></a>
@@ -124,7 +124,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="600">
                     <div class="team-member">
                         <div class="member-img">
-                            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="Eng. Chrispin Chomba">
+                            <img src="assets/img/team/Eng_Chrispin_Chomba.jpg" class="img-fluid" alt="Eng. Chrispin Chomba">
                             <div class="social">
                                 <a href=""><i class="bi bi-linkedin"></i></a>
                                 <a href=""><i class="bi bi-envelope"></i></a>

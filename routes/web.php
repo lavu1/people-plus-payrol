@@ -58,6 +58,9 @@ Route::get('testimonials', function () {
 Route::get('blog', function () {
     return view('pages.blog');
 })->name('blog');
+Route::get('csr', function () {
+    return view('pages.csr');
+})->name('csr');
 Route::get('sign-in', function () {
     return view('pages.signin');
 })->name('sign-in');

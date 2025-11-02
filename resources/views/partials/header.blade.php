@@ -4,7 +4,7 @@
         <a href="{{ route('home') }}" class="logo d-flex align-items-center me-auto">
             <!-- Uncomment the line below if you also wish to use an image logo -->
             <!-- <img src="assets/img/logo.png" alt=""> -->
-            <h1 class="sitename">People's +</h1><span>.</span>
+            <h1 class="sitename"><strong>People</strong></h1><span>+</span>
         </a>
 
         <nav id="navmenu" class="navmenu">
@@ -30,8 +30,10 @@
                 <li><a href="{{ route('portfolio') }}" class="{{ in_array(Route::currentRouteName(), ['portfolio']) ? 'active' : '' }}">Portfolio</a></li>
                 <li><a href="{{ route('pricing') }}" class="{{ in_array(Route::currentRouteName(), ['pricing']) ? 'active' : '' }}">Pricing</a></li>
                 <li><a href="{{ route('blog') }}" class="{{ in_array(Route::currentRouteName(), ['blog']) ? 'active' : '' }}">Blog</a></li>
+                <li><a href="{{ route('csr') }}" class="{{ in_array(Route::currentRouteName(), ['csr']) ? 'active' : '' }}">Our CSR</a></li>
                 <li><a href="{{ route('contact-us') }}" class="{{ in_array(Route::currentRouteName(), ['contact-us']) ? 'active' : '' }}">Contact</a></li>
                 <li><a href="{{ route('sign-in') }}" class="{{ in_array(Route::currentRouteName(), ['sign-in']) ? 'active' : '' }}"><strong>Sign In</strong></a></li>
+                <li><a href="/admin/login" class="{{ in_array(Route::currentRouteName(), ['sign-in']) ? 'active' : '' }}"><strong>FreePayroll App</strong></a></li>
             </ul>
             <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>

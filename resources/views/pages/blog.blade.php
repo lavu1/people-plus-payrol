@@ -21,75 +21,74 @@
         <div class="container">
             <div class="row gy-4">
 
-                <div class="col-lg-4">
-                    <article class="position-relative h-100">
+{{--                <div class="col-lg-4">--}}
+{{--                    <article class="position-relative h-100">--}}
 
-                        <div class="post-img position-relative overflow-hidden">
-                            <img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt="">
-                            <span class="post-date">June 12</span>
-                        </div>
+{{--                        <div class="post-img position-relative overflow-hidden">--}}
+{{--                            <img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt="">--}}
+{{--                            <span class="post-date">June 12</span>--}}
+{{--                        </div>--}}
 
-                        <div class="post-content d-flex flex-column">
+{{--                        <div class="post-content d-flex flex-column">--}}
 
-                            <h3 class="post-title">5 Ways AI is Revolutionizing HR & Payroll in 2024</h3>
+{{--                            <h3 class="post-title">5 Ways AI is Revolutionizing HR & Payroll in 2024</h3>--}}
 
-                            <div class="meta d-flex align-items-center">
-                                <div class="d-flex align-items-center">
-                                    <i class="bi bi-person"></i> <span class="ps-2">J Martins</span>
-                                </div>
-                                <span class="px-3 text-black-50">/</span>
-                                <div class="d-flex align-items-center">
-                                    <i class="bi bi-folder2"></i> <span class="ps-2">HR</span>
-                                </div>
-                            </div>
+{{--                            <div class="meta d-flex align-items-center">--}}
+{{--                                <div class="d-flex align-items-center">--}}
+{{--                                    <i class="bi bi-person"></i> <span class="ps-2">J Martins</span>--}}
+{{--                                </div>--}}
+{{--                                <span class="px-3 text-black-50">/</span>--}}
+{{--                                <div class="d-flex align-items-center">--}}
+{{--                                    <i class="bi bi-folder2"></i> <span class="ps-2">HR</span>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
 
-                            <p>
-                                Discover how artificial intelligence is transforming hiring, attendance tracking, and payroll accuracy—making HR teams faster and more strategic than ever.
-                            </p>
+{{--                            <p>--}}
+{{--                                Discover how artificial intelligence is transforming hiring, attendance tracking, and payroll accuracy—making HR teams faster and more strategic than ever.--}}
+{{--                            </p>--}}
 
-                            <hr>
+{{--                            <hr>--}}
 
-                            <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+{{--                            <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>--}}
 
-                        </div>
+{{--                        </div>--}}
 
-                    </article>
-                </div><!-- End post list item -->
+{{--                    </article>--}}
+{{--                </div>--}}
+{{--                <div class="col-lg-4">--}}
+{{--                    <article class="position-relative h-100">--}}
 
-                <div class="col-lg-4">
-                    <article class="position-relative h-100">
+{{--                        <div class="post-img position-relative overflow-hidden">--}}
+{{--                            <img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt="">--}}
+{{--                            <span class="post-date">March 19</span>--}}
+{{--                        </div>--}}
 
-                        <div class="post-img position-relative overflow-hidden">
-                            <img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt="">
-                            <span class="post-date">March 19</span>
-                        </div>
+{{--                        <div class="post-content d-flex flex-column">--}}
 
-                        <div class="post-content d-flex flex-column">
+{{--                            <h3 class="post-title">Payroll Compliance Checklist: Avoid Costly Mistakes</h3>--}}
 
-                            <h3 class="post-title">Payroll Compliance Checklist: Avoid Costly Mistakes</h3>
+{{--                            <div class="meta d-flex align-items-center">--}}
+{{--                                <div class="d-flex align-items-center">--}}
+{{--                                    <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>--}}
+{{--                                </div>--}}
+{{--                                <span class="px-3 text-black-50">/</span>--}}
+{{--                                <div class="d-flex align-items-center">--}}
+{{--                                    <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
 
-                            <div class="meta d-flex align-items-center">
-                                <div class="d-flex align-items-center">
-                                    <i class="bi bi-person"></i> <span class="ps-2">Julia Parker</span>
-                                </div>
-                                <span class="px-3 text-black-50">/</span>
-                                <div class="d-flex align-items-center">
-                                    <i class="bi bi-folder2"></i> <span class="ps-2">Economics</span>
-                                </div>
-                            </div>
+{{--                            <p>--}}
+{{--                                Learn the essential legal requirements for payroll processing across industries, with tips to automate tax filings and prevent penalties.--}}
+{{--                            </p>--}}
 
-                            <p>
-                                Learn the essential legal requirements for payroll processing across industries, with tips to automate tax filings and prevent penalties.
-                            </p>
+{{--                            <hr>--}}
 
-                            <hr>
+{{--                            <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>--}}
 
-                            <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+{{--                        </div>--}}
 
-                        </div>
-
-                    </article>
-                </div><!-- End post list item -->
+{{--                    </article>--}}
+{{--                </div>--}}
 
             </div>
         </div>

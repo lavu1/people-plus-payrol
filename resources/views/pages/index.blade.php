@@ -183,8 +183,6 @@
             <p>We provide diversified management consultancy services to support and meet our clients' needs across multiple sectors.</p>
         </div><!-- End Section Title -->
 
-        <!-- ... rest of portfolio section remains structurally the same ... -->
-
     </section><!-- /Portfolio Section -->
 
     <!-- Clients Section -->
@@ -198,18 +196,18 @@
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
             <div class="row g-0 clients-wrap">
-                <div class="col-xl-3 col-md-4 client-logo">
+                <div class="col-xl-4 col-md-4 client-logo">
                     <img src="assets/img/blog/zppa.jpeg" class="img-fluid" alt="Zambia Public Procurement Authority">
                 </div>
-                <div class="col-xl-3 col-md-4 client-logo">
+                <div class="col-xl-4 col-md-4 client-logo">
                     <img src="assets/img/blog/zra.png" class="img-fluid" alt="Zambia Revenue Authority">
                 </div>
-                <div class="col-xl-3 col-md-4 client-logo">
+                <div class="col-xl-4 col-md-4 client-logo">
                     <img src="assets/img/blog/pacra.png" class="img-fluid" alt="Patents and Companies Registration Agency">
                 </div>
-                <div class="col-xl-3 col-md-4 client-logo">
-                    <img src="assets/img/blog/zica.jpeg" class="img-fluid" alt="Zambia Institute of Chartered Accountants">
-                </div>
+{{--                <div class="col-xl-3 col-md-4 client-logo">--}}
+{{--                    <img src="assets/img/blog/zica.jpeg" class="img-fluid" alt="Zambia Institute of Chartered Accountants">--}}
+{{--                </div>--}}
             </div>
         </div>
 
@@ -228,36 +226,36 @@
             <div class="row g-0 clients-wrap">
 
                 <div class="col-xl-3 col-md-4 client-logo">
-                    <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+                    <img src="assets/img/clients/img_1.png" class="img-fluid" alt="">
                 </div><!-- End Client Item -->
 
                 <div class="col-xl-3 col-md-4 client-logo">
-                    <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+                    <img src="assets/img/clients/img_2.png" class="img-fluid" alt="">
                 </div><!-- End Client Item -->
 
                 <div class="col-xl-3 col-md-4 client-logo">
-                    <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+                    <img src="assets/img/clients/img_3.png" class="img-fluid" alt="">
                 </div><!-- End Client Item -->
 
                 <div class="col-xl-3 col-md-4 client-logo">
-                    <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+                    <img src="assets/img/clients/img.png" class="img-fluid" alt="">
                 </div><!-- End Client Item -->
 
-                <div class="col-xl-3 col-md-4 client-logo">
-                    <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-                </div><!-- End Client Item -->
+{{--                <div class="col-xl-3 col-md-4 client-logo">--}}
+{{--                    <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">--}}
+{{--                </div>--}}
 
-                <div class="col-xl-3 col-md-4 client-logo">
-                    <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-                </div><!-- End Client Item -->
+{{--                <div class="col-xl-3 col-md-4 client-logo">--}}
+{{--                    <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">--}}
+{{--                </div>--}}
 
-                <div class="col-xl-3 col-md-4 client-logo">
-                    <img src="assets/img/clients/client-7.png" class="img-fluid" alt="">
-                </div><!-- End Client Item -->
+{{--                <div class="col-xl-3 col-md-4 client-logo">--}}
+{{--                    <img src="assets/img/clients/client-7.png" class="img-fluid" alt="">--}}
+{{--                </div>--}}
 
-                <div class="col-xl-3 col-md-4 client-logo">
-                    <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
-                </div><!-- End Client Item -->
+{{--                <div class="col-xl-3 col-md-4 client-logo">--}}
+{{--                    <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">--}}
+{{--                </div>--}}
 
             </div>
 
