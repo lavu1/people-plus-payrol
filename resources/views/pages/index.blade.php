@@ -58,18 +58,17 @@
 
                 <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
                     <h2 class="inner-title"> Who We Are</h2>
-                    <div class="our-story">
+                    <div class="our-story justify-content">
                         <h4>Since 2024</h4>
                         <h3>Our Story</h3>
-                        <p>Founded in 2024, People-Plus Management Solutions is a management
+                        <p class="text-start text-justify  " style="text-align: justify !important;">Founded in 2024, People-Plus Management Solutions is a management
                             consultancy firm dedicated to the provision of professional, relevant,
                             responsive and creative solutions to help organisations and individuals to
-                            achieve their goals. Based in Ndola, People-Plus has a team of dedicated
+                            achieve their goals. based in Kitwe, People-Plus has a team of dedicated
                             professionals, supported by a network of associate Consultants based on
                             the Copperbelt and Lusaka Provinces of Zambia, and also in South Africa.
                             We are passionate about providing relevant management Solutions, with a
-                            special focus on labour law, human capital, tax, personal finance, higher
-                            education management, Information technology and information systems.</p>
+                            special focus on immigration and Travel advisory services.</p>
 {{--                        <ul>--}}
 {{--                            <li><i class="bi bi-check-circle"></i> <span>Expert HR Consultants</span></li>--}}
 {{--                            <li><i class="bi bi-check-circle"></i> <span>Accurate & Timely Payroll Processing</span></li>--}}
@@ -196,18 +195,27 @@
 
         <div class="container" data-aos="fade-up" data-aos-delay="100">
             <div class="row g-0 clients-wrap">
-                <div class="col-xl-4 col-md-4 client-logo">
+                <div class="col-xl-2 col-md-4 client-logo">
                     <img src="assets/img/blog/zppa.jpeg" class="img-fluid" alt="Zambia Public Procurement Authority">
                 </div>
-                <div class="col-xl-4 col-md-4 client-logo">
+                <div class="col-xl-2 col-md-4 client-logo">
                     <img src="assets/img/blog/zra.png" class="img-fluid" alt="Zambia Revenue Authority">
                 </div>
-                <div class="col-xl-4 col-md-4 client-logo">
+                <div class="col-xl-2 col-md-4  client-logo">
                     <img src="assets/img/blog/pacra.png" class="img-fluid" alt="Patents and Companies Registration Agency">
                 </div>
-{{--                <div class="col-xl-3 col-md-4 client-logo">--}}
-{{--                    <img src="assets/img/blog/zica.jpeg" class="img-fluid" alt="Zambia Institute of Chartered Accountants">--}}
-{{--                </div>--}}
+                <div class="col-xl-2 col-md-4  client-logo">
+                    <img src="assets/img/blog/zihrm.png" class="img-fluid" alt="Zambia Institute of Human Resource Management">
+                </div>
+                <div class="col-xl-2 col-md-4  client-logo">
+                    <img src="assets/img/blog/ndcc.png" class="img-fluid" alt="Ndola and District Chamber of Commerce and Industry">
+                </div>
+                <div class="col-xl-2 col-md-4  client-logo">
+                    <img src="assets/img/blog/wcfcb.png" class="img-fluid" alt=" Workers Compensation Fund Control Board">
+                </div>
+                <div class="col-xl-2 col-md-4  client-logo">
+                    <img src="assets/img/blog/napsa.png" class="img-fluid" alt="National Pension Scheme Authority - NAPSA">
+                </div>
             </div>
         </div>
 

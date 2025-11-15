@@ -124,7 +124,20 @@
                         </ul>
                     </div>
                 </div><!-- End Service Item -->
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-item item-indigo position-relative">
+                        <div class="icon">
+                            <i class="bi bi-mortarboard"></i>
+                        </div>
+                        <a href="{{ route('service-details', 'higher-education') }}" class="stretched-link">
+                            <h3>Immigration & Travel</h3>
+                        </a>
+                        <p>We offer immigration and travel advisory and assistance services to individuals and companies wishing to travel, work or invest in Zambia and the Southern African region.</p>
+                        <ul class="service-features">
 
+                        </ul>
+                    </div>
+                </div>
                 <!-- ICT Solutions -->
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                     <div class="service-item item-pink position-relative">

@@ -67,9 +67,12 @@ Route::get('sign-in', function () {
 Route::get('service-details', function () {
     return view('pages.service_details');
 })->name('service-details');
-Route::get('/zigsapi.gsb.gov.zm/documents/84905694-8703-446C-AA9A-EAE751E56415/view', function () {
-    return view('pages.service_details');
-})->name('service-details');
+//Route::get('/zigsapi.gsb.gov.zm/documents/84905694-8703-446C-AA9A-EAE751E56415/view', function () {
+//    return view('pages.service_details');
+//})->name('service-details');
+Route::get('/getting-started', function () {
+    return view('pages.getting-started');
+})->name('getting-started');
 // Fallback route
 //Route::fallback(function () {
 //    return view('pages.index');

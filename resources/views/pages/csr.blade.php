@@ -20,9 +20,9 @@
         <div class="container">
             <div class="section-title" data-aos="fade-up">
                 <h2>Corporate Social Responsibility</h2>
-                <p>At Peoples Plus, we believe in giving back to the community and supporting causes that create lasting
-                    positive impact. Our commitment extends beyond business excellence to meaningful social
-                    contribution.</p>
+                <p>Join us in supporting the following causes.
+                    To find out more on how you can directly support this cause,
+                    visit their website, or email us on ppmsolutions24@gmail.com </p>
             </div>
 
             <div class="row gy-4">

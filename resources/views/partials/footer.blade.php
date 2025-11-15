@@ -8,8 +8,8 @@
                     <span class="sitename">Peoples Plus</span>
                 </a>
                 <div class="footer-contact pt-3">
-                    <p>House No. 3, Fitente Road,</p>
-                    <p>Ndola, Zambia</p>
+                    <p> Stand 3938, Along Nile Avenue,</p>
+                    <p>Riverside, Kitwe, Zambia</p>
                     <p class="mt-3"><strong>Phone:</strong> <span>0977 762 709 / 0963 719 725</span></p>
                     <p><strong>Email : </strong> <span> ppmsolutions24@gmail.com</span></p>
                 </div>
