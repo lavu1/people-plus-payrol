@@ -19,7 +19,7 @@
         <div class="container">
             <div class="row position-relative">
                 <div class="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="assets/img/about.jpg">
+                    <img src="assets/img/ours.png">
                 </div>
                 <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
                     <h2 class="inner-title">Who We Are</h2>

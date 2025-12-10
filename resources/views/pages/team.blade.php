@@ -73,7 +73,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                     <div class="team-member">
                         <div class="member-img">
-                            <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="Mrs. Tamala N. Simwinga">
+                            <img src="assets/img/team/img.png" class="img-fluid" alt="Mrs. Tamala N. Simwinga">
                             <div class="social">
                                 <a href=""><i class="bi bi-linkedin"></i></a>
                                 <a href=""><i class="bi bi-envelope"></i></a>
@@ -90,7 +90,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
                     <div class="team-member">
                         <div class="member-img">
-                            <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="Mr. Passmore Hamukoma">
+                            <img src="assets/img/team/img.png" class="img-fluid" alt="Mr. Passmore Hamukoma">
                             <div class="social">
                                 <a href=""><i class="bi bi-linkedin"></i></a>
                                 <a href=""><i class="bi bi-envelope"></i></a>
@@ -107,7 +107,7 @@
                 <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="500">
                     <div class="team-member">
                         <div class="member-img">
-                            <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="Eng. John Silungwe">
+                            <img src="assets/img/team/img.png" class="img-fluid" alt="Eng. John Silungwe">
                             <div class="social">
                                 <a href=""><i class="bi bi-linkedin"></i></a>
                                 <a href=""><i class="bi bi-envelope"></i></a>

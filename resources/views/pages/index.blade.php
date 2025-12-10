@@ -7,7 +7,7 @@
         <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
 
             <div class="carousel-item active">
-                <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="">
+                <img src="assets/img/hero-carousel/Gemini_Generated_Image_4qe1854qe1854qe1.png" alt="">
                 <div class="container">
                     <h2>Expert Management Solutions for Your Business</h2>
                     <p>Streamline your operations with our professional consultancy services. From HR to financial management, we help organizations achieve their goals.</p>
@@ -16,7 +16,7 @@
             </div><!-- End Carousel Item -->
 
             <div class="carousel-item">
-                <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="">
+                <img src="assets/img/hero-carousel/Gemini_Generated_Image_kjbjzukjbjzukjbj.png" alt="">
                 <div class="container">
                     <h2>Comprehensive Financial & Tax Services</h2>
                     <p>Leave financial complexities to us! We ensure accurate, timely, and compliant financial processing so you can focus on business growth.</p>
@@ -25,7 +25,7 @@
             </div><!-- End Carousel Item -->
 
             <div class="carousel-item">
-                <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="">
+                <img src="assets/img/hero-carousel/Gemini_Generated_Image_rt2u1lrt2u1lrt2u.png" alt="">
                 <div class="container">
                     <h2>Trusted by Leading Organizations</h2>
                     <p>Join numerous businesses and institutions that rely on our expertise for seamless management solutions.</p>
@@ -54,7 +54,7 @@
 
             <div class="row position-relative">
 
-                <div class="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200"><img src="assets/img/about.jpg"></div>
+                <div class="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200"><img src="assets/img/ours.png"></div>
 
                 <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
                     <h2 class="inner-title"> Who We Are</h2>
