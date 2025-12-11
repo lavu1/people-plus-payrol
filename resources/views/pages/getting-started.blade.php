@@ -33,7 +33,7 @@
                         </div>
                         <h3>Step 1: Visit Registration Page</h3>
                         <p>Go to the official payroll registration portal to begin creating your company account.</p>
-                        <a href="https://payroll.peoplesplus.com/register" class="btn btn-outline-primary mt-3" target="_blank">
+                        <a href="https://peoplesplussolution.com/admin" class="btn btn-outline-primary mt-3" target="_blank">
                             <i class="bi bi-box-arrow-up-right"></i> Open Registration
                         </a>
                     </div>
